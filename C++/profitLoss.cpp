@@ -7,7 +7,11 @@ int main()
     cin>>cp;
     cout<<"Enter selling price: ";
     cin>>sp;
-    if(sp>cp)
+    if(sp==cp)
+    {
+        cout<<"No profit no loss";
+    }
+    else if(sp>cp)
     {
         cout<<"Profit is: "<<sp-cp;
     }
