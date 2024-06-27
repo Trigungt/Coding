@@ -7,6 +7,9 @@ int main()
     v.emplace_back(2);
     cout<<v[1]<<endl; // generally emplace_back is faster than push_back
 
+    vector<int>v1(3,100); // 100 100 100
+    vector<int>v2(v1);    // copies values of v1 to v2
+
     vector<pair<int,int>>vec;
     vec.push_back({1,2});
     vec.emplace_back(3,4); // no need to give curly braces while using emplace_back
