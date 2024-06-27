@@ -11,6 +11,6 @@ int main()
     cout<<q.back()<<endl; // 10
     cout<<q.front()<<endl; // 1
     q.pop();
-    cout<<q.front();
+    cout<<q.front(); // 2
     return 0;
 }
