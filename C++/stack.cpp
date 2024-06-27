@@ -15,3 +15,5 @@ int main()
     cout<<s.empty();
     return 0;
 }
+
+// stack follows LIFO --> last in first out
