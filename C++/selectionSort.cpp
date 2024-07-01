@@ -35,3 +35,5 @@ int main()
     }
     return 0;
 }
+
+// Selects minimum and swaps it
