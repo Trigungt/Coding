@@ -39,3 +39,5 @@ int main()
     }
     return 0;
 }
+
+// Pushes the maximum to the last by adjacent swaps
