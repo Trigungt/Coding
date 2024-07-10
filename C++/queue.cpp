@@ -10,7 +10,9 @@ int main()
     q.back()+=6;
     cout<<q.back()<<endl; // 10
     cout<<q.front()<<endl; // 1
-    q.pop();
+    q.pop(); // 2 3 4
     cout<<q.front(); // 2
     return 0;
 }
+
+// queue follows FIFO ---> first in first out 
