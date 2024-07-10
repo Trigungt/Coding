@@ -8,7 +8,7 @@ int main()
     s.push(3); // 3 2 1
     s.push(4); // 4 3 2 1
 
-    cout<<s.top()<<endl; // 4
+    cout<<s.top()<<endl; // 4 | cannot be accessed by indexing |
     s.pop(); // s looks like 3 2 1
     cout<<s.top()<<endl; // 3
     cout<<s.size()<<endl;
