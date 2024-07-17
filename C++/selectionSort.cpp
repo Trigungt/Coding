@@ -29,6 +29,7 @@ int main()
         cin>>arr[i];
     }
     selection_sort(arr,n);
+    cout<<"Sorted array is: ";
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
@@ -36,4 +37,5 @@ int main()
     return 0;
 }
 
-// Selects minimum and swaps it
+// Selects minimum and swaps it 
+
