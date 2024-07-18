@@ -26,6 +26,7 @@ int main()
         cin>>arr[i];
     }
     insertion_sort(arr,n);
+    cout<<"Sorted array is: ";
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
