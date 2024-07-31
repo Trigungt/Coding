@@ -1,0 +1,34 @@
+h1
+{
+    color : rgb(208, 3, 3); 
+    text-align: center;
+    text-decoration: blue wavy underline;
+    font-size: 50px;
+}
+
+#one
+{
+    color : blue;
+    font-family: 'Times New Roman';
+    line-height: 80px;
+}
+
+#two
+{
+    color : rgb(85, 85, 0);
+    font-family:'Segoe UI';
+}
+
+button
+{
+    color : rgb(13, 203, 241); /* rgb color system */
+    background-color: rgb(5, 64, 66);
+}
+
+body
+{
+    background-color:#03fcca; /* hex color system */
+}
+
+
+
